@@ -20,7 +20,7 @@ public class Main {
 //		String keyword = s.nextLine(); //공백 포함해서 받음(한 라인을 다받음) *next()만 하면 공백에서 끊김*
 //		
 		// config 파일에 대한 경로를 문자열로 저장
-		String config = "classpath:applicationCtx.xml";
+		String config = "classpath:applicationCtx2.xml";
 		
 		AbstractApplicationContext ctx = 
 				new GenericXmlApplicationContext(config);
